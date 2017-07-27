@@ -1,0 +1,5 @@
+config/config.js
+config/settings.sqlite3
+node_modules/
+.*.swp
+*.wav

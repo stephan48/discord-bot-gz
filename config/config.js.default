@@ -1,0 +1,13 @@
+const path = require('path');
+
+const commandosPath = path.join(__dirname, '..', 'commands');
+const sqlitePath = path.join(__dirname, 'settings.sqlite3');
+const discordToken = '...';
+const hashToken = '...';
+const externalPort = 3443;
+const externalUrl = `http://...:${externalPort}`;
+const ownerId = '...';
+
+module.exports = {
+	commandosPath, sqlitePath, discordToken, hashToken, externalPort, externalUrl, ownerId
+};	
